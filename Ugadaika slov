@@ -1,0 +1,17 @@
+import random
+WORDS = ("задор", "раздор", "пиздец", "дочь", "дурачок")
+word = random.choice(WORDS)
+print ("Я загадал слово")
+for _ in range (4):
+    letter = input ("Предположи букву: ")
+    if letter in word:
+        print ("yes")
+    else:
+        print ("no")
+userword = input ("It's word: ")
+if userword == word:
+    print ("Yes, it is.")
+else:
+    print ("No, it's", word)
+input ()
+    

@@ -1,0 +1,15 @@
+random
+
+WORDS = ['one', 'two', 'three', 'four','five']
+spisok = ()
+
+kolvo_slov = len.WORDS
+
+for i in len.WORDS:
+
+    word = WORDS [randrange(1, len.WORDS)] 
+
+while word in spisok:
+    word = WORDS [randrange(1, len.WORDS)]
+
+spisok.append (word)
